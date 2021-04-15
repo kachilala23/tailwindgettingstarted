@@ -1,0 +1,18 @@
+yarn init -y
+yarn add -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p
+create a folder called css and add a file called tailwind.css inside then paste the code below inside it.
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+add the following line to package.json 
+
+"scripts": {
+    "dev": "vite"
+  },
+
+
+finally run the command npm run dev in your terminal.
+
